@@ -1,0 +1,61 @@
+# ---------------------------------------------------------
+# MobileGas Project - .gitignore
+# Clean, minimal, and safe for Arduino/PlatformIO workflows
+# ---------------------------------------------------------
+
+# === Arduino IDE ===
+*.ino.cpp
+*.elf
+*.bin
+*.hex
+*.eep
+
+# Arduino build folders
+build/
+*.arduino*
+
+# === PlatformIO ===
+.pio/
+.pioenvs/
+.piolibdeps/
+.pio/libdeps/
+.pio/build/
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === Logs & temp files ===
+*.log
+*.tmp
+*.temp
+
+# === OS-specific clutter ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Python virtual envs (if used for tooling) ===
+venv/
+.env/
+
+# === Backup files ===
+*~
+*.bak
+*.swp
+*.swo
+
+# === Node tooling (if ever added) ===
+node_modules/
+
+# === Ignore secrets/configs if added later ===
+*.env.local
+*.env.development.local
+*.env.production.local
+*.env.test.local
