@@ -16,8 +16,8 @@
 #include "UI.h"
 
 // WiFi credentials
-const char* ssid = "ssid";
-const char* password = "password";
+const char* ssid = "your_ssid";
+const char* password = "your_password";
 
 WebServer server(80);
 
